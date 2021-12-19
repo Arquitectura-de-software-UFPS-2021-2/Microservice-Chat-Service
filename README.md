@@ -1,6 +1,6 @@
 # Microservice chat
 
-_API REST Microservice chat _
+_API REST Microservice chat_
 ## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
