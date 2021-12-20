@@ -12,6 +12,22 @@ git clone https://github.com/Arquitectura-de-software-UFPS-2021-2/Microservice-C
 ```
 Nodejs version > 14
 ```
+
+### HOST
+```
+34.202.12.23:8800
+```
+
+### Endpoints
+```
+/api/auth/register/ POST
+/api/conversations/ POST
+/api/conversations/:userId GET
+/api/conversations/find/:firstUserId/:secondUserId GET
+/api/messages/ POST
+/api/messages/:conversationId GET
+/api/users GET
+```
 ### Instalación 🔧
 
 _Instalamos las dependencias del proyecto_
