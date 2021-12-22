@@ -21,12 +21,26 @@ Nodejs version > 14
 ### Endpoints
 ```
 /api/auth/register/ POST
+{
+  "username":"",
+  "email":"",
+  "password"
+}
 /api/conversations/ POST
+{
+  "senderId":"",
+  "receiverId":""
+}
 /api/conversations/:userId GET
 /api/conversations/find/:firstUserId/:secondUserId GET
 /api/messages/ POST
+{
+  "sender":""
+  "text":""
+  "conversationId":""
+}
 /api/messages/:conversationId GET
-/api/users GET
+/api/users?userId&email GET
 ```
 ### Instalación 🔧
 
